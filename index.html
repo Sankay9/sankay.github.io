@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canopusy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+            text-align: center;
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #ccc;
+        }
+        nav {
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 1em;
+            text-align: center;
+            position: sticky;
+            top: 60px;
+            z-index: 999;
+        }
+        nav a {
+            color: black;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2em;
+            margin: 2em auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #ccc;
+        }
+        .content {
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Canopusy</h1>
+    </header>
+    <nav>
+        <a href="#news">Güncel Haberler</a>
+        <a href="#sports">Spor Haberleri</a>
+        <a href="#tech">Teknoloji & Bilim</a>
+        <a href="#docs">Belgeseller</a>
+    </nav>
+    <section id="news">
+        <h2>Güncel Haberler</h2>
+        <div class="content">
+            <p>Güncel haberler hakkında bilgi buraya gelecek.</p>
+        </div>
+    </section>
+    <section id="sports">
+        <h2>Spor Haberleri</h2>
+        <div class="content">
+            <p>Spor haberleri hakkında bilgi buraya gelecek.</p>
+        </div>
+    </section>
+    <section id="tech">
+        <h2>Teknoloji & Bilim</h2>
+        <div class="content">
+            <p>Teknoloji ve bilim hakkında bilgi buraya gelecek.</p>
+        </div>
+    </section>
+    <section id="docs">
+        <h2>Belgeseller</h2>
+        <div class="content">
+            <p>Kısa metrajlı belgeseller hakkında bilgi buraya gelecek.</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Canopusy. Tüm hakları saklıdır.</p>
+    </footer>
+    <audio autoplay loop>
+        <source src="slow-music.mp3" type="audio/mpeg">
+        Tarayıcınız bu sesi çalmayı desteklemiyor.
+    </audio>
+</body>
+</html>
